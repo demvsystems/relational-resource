@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace RelationalResourceFramework\Examples\Zoo;
+namespace RelationalResource\Examples\Zoo;
 
-use RelationalResourceFramework\Examples\Zoo\Models\Lion;
-use RelationalResourceFramework\RelationalResource\ResourceInterface;
+use RelationalResource\Examples\Zoo\Models\Lion;
+use RelationalResource\RelationalResource\ResourceInterface;
 
 /**
  * Class LionResource
- * @package RelationalResourceFramework\Examples\Zoo
+ * @package RelationalResource\Examples\Zoo
  */
 final class LionResource implements ResourceInterface
 {

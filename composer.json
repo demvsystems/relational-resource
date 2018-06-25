@@ -1,5 +1,5 @@
 {
-    "name": "demvsystems/relational-resource-framework",
+    "name": "demvsystems/relational-resource",
     "type": "library",
     "description": "",
     "require": {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "RelationalResourceFramework\\": "src"
+            "RelationalResource\\": "src"
         }
     },
     "authors": [

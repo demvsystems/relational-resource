@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace RelationalResourceFramework\Examples\Zoo\Models;
+namespace RelationalResource\Examples\Zoo\Models;
 
 /**
  * Class Buffalo
- * @package RelationalResourceFramework\Examples\Zoo
+ * @package RelationalResource\Examples\Zoo
  */
 final class Buffalo
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace RelationalResourceFramework\RelationalResource;
+namespace RelationalResource\RelationalResource;
 
 use Exception;
 

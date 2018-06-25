@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace RelationalResourceFramework\Examples;
+namespace RelationalResource\Examples;
 
 use Exception;
 use PHPUnit\Framework\TestCase;
-use RelationalResourceFramework\Examples\Zoo\Models\Buffalo;
-use RelationalResourceFramework\Examples\Zoo\Models\Lion;
-use RelationalResourceFramework\Examples\Zoo\Models\Zoo;
-use RelationalResourceFramework\Examples\Zoo\ZooResourceCollection;
+use RelationalResource\Examples\Zoo\Models\Buffalo;
+use RelationalResource\Examples\Zoo\Models\Lion;
+use RelationalResource\Examples\Zoo\Models\Zoo;
+use RelationalResource\Examples\Zoo\ZooResourceCollection;
 
 /**
  * Class ZooTest

@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace RelationalResourceFramework\Examples\Zoo;
+namespace RelationalResource\Examples\Zoo;
 
-use RelationalResourceFramework\RelationalResource\AbstractRelationalResourceCollection;
+use RelationalResource\RelationalResource\AbstractRelationalResourceCollection;
 
 /**
  * Class TestResourceCollection
- * @package RelationalResourceFramework\Examples\Zoo
+ * @package RelationalResource\Examples\Zoo
  */
 final class ZooResourceCollection extends AbstractRelationalResourceCollection
 {

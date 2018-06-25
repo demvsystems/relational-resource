@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace RelationalResourceFramework\Examples\Zoo;
+namespace RelationalResource\Examples\Zoo;
 
-use RelationalResourceFramework\Examples\Zoo\Models\Buffalo;
-use RelationalResourceFramework\RelationalResource\ResourceInterface;
+use RelationalResource\Examples\Zoo\Models\Buffalo;
+use RelationalResource\RelationalResource\ResourceInterface;
 
 /**
  * Class BuffaloResource
