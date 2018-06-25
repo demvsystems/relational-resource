@@ -14,6 +14,6 @@ matrix:
         directories:
           - $HOME/.composer/cache/files
       after_success:
-        - bash <(curl -s https://codecov.io/bash) -t c2115ae7-4fda-4f69-8ab6-3851007df97a
+        - bash <(curl -s https://codecov.io/bash)
 notifications:
   email: false
