@@ -1,20 +1,18 @@
-matrix:
-  include:
-    - language: php
-      php:
-      - 7.1.19
-      - 7.2
-      - nightly
-      install:
-        - composer self-update
-        - composer install --prefer-dist --optimize-autoloader --no-scripts
-      script:
-        - composer coverage
-        - composer phpcs
-      cache:
-        directories:
-          - $HOME/.composer/cache/files
-      after_success:
-        - bash <(curl -s https://codecov.io/bash)
+language: php
+php:
+- 7.1.19
+- 7.2
+- nightly
+install:
+- composer self-update
+- composer install --prefer-dist --optimize-autoloader --no-scripts
+script:
+- composer coverage
+- composer phpcs
+cache:
+  directories:
+    - $HOME/.composer/cache/files
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
 notifications:
   email: false
