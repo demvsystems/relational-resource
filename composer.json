@@ -1,0 +1,26 @@
+{
+    "name": "demvsystems/relational-resource-framework",
+    "type": "library",
+    "description": "",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.1",
+        "phpunit/phpunit": "^7.2"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "psr-4": {
+            "RelationalResourceFramework\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Keno Weßels",
+            "email": "kenowessels@googlemail.com"
+        }
+    ]
+}
