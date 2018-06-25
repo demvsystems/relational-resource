@@ -1,7 +1,7 @@
 matrix:
   include:
     - language: php
-      - php: 7.1.11
+      - php: 7.1.19
       - php: 7.2
       - php: nightly
       install:
