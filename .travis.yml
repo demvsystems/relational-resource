@@ -1,9 +1,9 @@
 matrix:
   include:
     - language: php
-      php: 7.1.11
-      php: 7.2
-      php: nightly
+      - php: 7.1.11
+      - php: 7.2
+      - php: nightly
       install:
         - composer self-update
         - composer install --prefer-dist --optimize-autoloader --no-scripts
