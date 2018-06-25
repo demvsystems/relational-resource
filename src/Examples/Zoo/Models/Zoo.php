@@ -41,5 +41,4 @@ final class Zoo
         $this->lions    = $lions;
         $this->buffalos = $buffalos;
     }
-
 }
