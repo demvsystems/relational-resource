@@ -1,0 +1,31 @@
+{
+    "name": "demvsystems/relational-resource",
+    "type": "library",
+    "description": "",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.1",
+        "phpunit/phpunit": "^7.2",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "coverage": "phpunit --coverage-clover=coverage.xml",
+        "coverage-html": "phpunit --coverage-html=coverage",
+        "phpcs": "vendor/bin/phpcs --standard=phpcs.xml",
+        "phpcbf": "vendor/bin/phpcbf --standard=phpcs.xml"
+    },
+    "autoload": {
+        "psr-4": {
+            "RelationalResource\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Development Team",
+            "email": "developer@demv.de"
+        }
+    ]
+}
